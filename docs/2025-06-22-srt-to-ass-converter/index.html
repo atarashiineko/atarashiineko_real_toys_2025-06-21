@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRT to ASS Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <div class="toolbar top">
+        <input type="file" id="fileInput" accept=".srt">
+        <span id="filename"></span>
+    </div>
+    <div id="output" contenteditable="false"></div>
+    <div class="toolbar bottom">
+        <button id="downloadBtn" disabled>Download .ass</button>
+        <button id="copyBtn" disabled>Copy to Clipboard</button>
+    </div>
+    <div id="log"></div>
+</body>
+</html>
